@@ -1,0 +1,51 @@
+POKEMON CIRCUITO LOJA — v0.7
+
+INSTALACAO
+Extraia a ROM .nds e seu save inicial .sav/.dsv. Abra no emulador de Nintendo DS, importe o save como memoria de bateria se necessario, e escolha CONTINUE. No DeSmuME, File > Import Backup Memory permite importar o .sav. Use o mesmo nome para ROM e save. Escolha Kanto, Johto padrao, Johto completo ou Hoenn com o direcional e A; confirme YES para sortear o time e iniciar.
+O save inicial e para a primeira instalacao. Para continuar a v0.3/v0.4/v0.5/v0.6, copie seu save de bateria e renomeie-o para Pokemon-Circuito-Loja-v0.7.sav/.dsv, conforme o emulador; ele preserva equipe, recordes, saldo e mochila. Saves das v0.1/v0.2 exigem comecar com o inicial. Preserve as versoes antigas em outras pastas. Depois de jogar, guarde o save gerado pelo emulador: nao substitua pelo inicial. Aguarde cada salvamento terminar antes de fechar. Save de bateria e diferente de save state.
+
+MIGRACAO DOS SAVES ANTIGOS
+A v0.7 importa saves de bateria v0.3/v0.4/v0.5/v0.6, preservando saldo, mochila, equipe, ovo pendente e historico de Kanto/Hoenn. Saves v0.6 usam o mesmo formato e continuam diretamente. Somente os saves v0.3/v0.4/v0.5 passam pela migracao do antigo modo Johto. Esse modo incluia Red: seu historico e transferido para Johto completo; Johto padrao comeca com contadores zerados. Esses numeros importados sao historicos do circuito antigo de 14 batalhas, nao comprovam conclusoes das novas 22. Para comparar jogadores somente nas regras novas, use o save inicial e preserve o antigo em outra pasta.
+Uma run antiga de Johto passa a ser completa: depois de Lance, faz os oito lideres de Kanto antes de Red. Se Red ja foi vencido e seu ovo ainda esta pendente, a recompensa e conclusao antigas sao preservadas, sem repetir Red nem os pagamentos. Uma conclusao antiga ja salva nao aumenta o contador novamente. A migracao ocorre uma unica vez e salva antes de continuar. Nao use save state antigo para migrar.
+
+NOVIDADES DESTA VERSAO
+- v0.7: troca do ovo simplificada. Oferta -> equipe -> Tem certeza? -> troca. IVs/EVs continuam aplicados aos Pokemon, mas nao aparecem em mensagens durante a troca.
+- Barra de HP: 16 pontos por quadro em vez de 1, ao perder e recuperar HP. Exemplo: 300 HP completos, 300 -> 19 quadros. Casos com HP maximo menor que 48 preservam o calculo subpixel original. EXP e demais animacoes mantem sua velocidade.
+- Texto no modo FAST (1 quadro por caractere), preservando avanco por A/B e animacoes de batalha.
+- Loja opcional antes da primeira batalha. Apos cada vitoria: cura -> loja -> escolha do ovo -> proxima batalha. Apos a ultima vitoria, loja e ovo antecedem a contabilizacao da conclusao.
+- Apenas Potion, Super Potion, Hyper Potion, Max Potion, Full Restore, Revive, Full Heal, X Attack, X Defend, X Special, X Sp. Def e X Speed. Precos normais de HeartGold. As descricoes e nomes da loja nativa ficam em ingles, conforme a base.
+- Escolha YES para entrar na loja, navegue com o direcional, selecione item/quantidade, confirme a compra. B volta ou sai. NO pula a loja. Sair segue para a escolha do ovo se houver recompensa pendente.
+- Compras e saldo sao salvos ao sair da loja; o ovo pendente continua sendo o mesmo. Reiniciar dentro da loja volta ao checkpoint anterior as compras dessa visita. Aguarde o salvamento terminar.
+- Dinheiro e mochila persistem entre runs/regioes, como no jogo normal. Save inicial com 3000. Veja Economia-Circuito-v0.7.md para os premios originais de cada adversario. Todas as 61 entradas de pagamento usam o valor da primeira campanha de sua referencia, mesmo com combates no nivel 100. Nao ha limite de compras.
+- Desde a v0.6: Johto padrao (13) e Johto completo (22) no menu, com recordes separados. Sorteio de formas e golpes, IVs, EVs e nivel 100 seguem as mesmas regras. Premios originais de cada referencia; no circuito Kanto, Brock 1400/Misty 2100; no trecho de Kanto de Johto completo, Brock 6240/Misty 6480. Red 16800. Pagamento unico salvo antes da loja. Retomar o checkpoint nao duplica o premio. Saves anteriores mantem seu saldo; o novo valor aplica-se as proximas vitorias.
+
+CIRCUITOS
+KANTO — referencia FireRed, equipes da primeira campanha:
+Brock, Misty, Lt. Surge, Erika, Koga, Sabrina, Blaine, Giovanni, Lorelei, Bruno, Agatha, Lance e Blue (variante com Blastoise). 13 batalhas. Time e ovos: especies 1–151.
+JOHTO PADRAO — referencia HeartGold:
+Falkner, Bugsy, Whitney, Morty, Chuck, Jasmine, Pryce, Clair, Will, Koga, Bruno, Karen e Lance. 13 batalhas, termina em Lance. Time e ovos: especies 1–251.
+JOHTO COMPLETO — referencia HeartGold:
+O circuito padrao acima, seguido por Lt. Surge, Sabrina, Erika, Janine, Misty, Brock, Blaine, Blue e Red. 22 batalhas, termina em Red. Time e ovos: especies 1–251, inclusive durante o trecho de Kanto. Os lideres de Kanto usam suas equipes e premios de HeartGold, nao as versoes de FireRed. Cada modo tem seus proprios recordes de conclusao, runs, sequencia e melhor sequencia.
+HOENN — referencia Emerald, equipes da primeira campanha:
+Roxanne, Brawly, Wattson, Flannery, Norman, Winona, Tate/Liza, Juan, Sidney, Phoebe, Glacia, Drake e Wallace. 13 batalhas. Tate/Liza contam como uma batalha em dupla. Time e ovos: especies 1–386.
+Todas as equipes adversarias foram elevadas ao nivel 100. Ataques e itens dos circuitos Kanto/Hoenn foram convertidos das referencias para os identificadores de HeartGold. As regras de combate, habilidades, efeitos de ataques e separacao fisico/especial sao as de HeartGold (Gen IV). Nao reproduz mecanicas antigas de FireRed/Emerald.
+
+TIME E OVOS
+Seis especies diferentes, todas no nivel 100. IVs variados 20–31, EVs legais 508, natureza Adamant/Modest conforme o maior ataque da especie. 252 EVs no ataque preferido, 100 HP, 100 velocidade, 56 na maior defesa. Golpes aleatorios do repertorio nativo de HeartGold, incluindo level-up/TM/HM; um golpe ofensivo quando disponivel. Itens aleatorios. O limite regional filtra especies; ataques e itens seguem o repertorio da base HeartGold.
+Apos cada vitoria, HP, PP e status sao restaurados; itens consumidos nao sao repostos. Uma recompensa de ovo misterioso por vitoria, incluindo a ultima.
+NO descarta o ovo sem mudar a equipe. YES permite escolher um Pokemon; RESUMO mostra seus atributos, golpes e demais informacoes. TROCAR abre somente "Tem certeza?". YES confirma a troca; NO volta a equipe, preservando o mesmo ovo. Nao ha textos de IVs/EVs nem instrucao adicional antes da tela de equipe. RESUMO continua disponivel para consultar atributos e golpes. Cancelar preserva o mesmo ovo; nao e possivel acumular ovos. Confirmar substitui apenas o lugar escolhido e salva antes de revelar. O Pokemon removido e seu item nao podem ser recuperados pelo jogo. O novo permanece ate outra troca. Reiniciar uma decisao pendente mantem o mesmo ovo e regiao.
+A derrota termina a run. Vitorias no circuito, runs, sequencia e melhor sequencia ficam separados para cada regiao, no save. Runs livres, sem limite diario ou ranking online.
+
+GRAFICOS
+Motor, duas telas, Pokemon, menus e batalhas de HeartGold. Treinadores que ja existem usam retratos nativos. Retratos de Hoenn, Giovanni, Lorelei e Agatha foram adaptados dos sprites originais de Emerald/FireRed para o formato de HeartGold. Sao retratos estaticos de GBA integrados ao DS, nao redesenhos animados no estilo HG. Nao ha exploracao dos mapas de Kanto/Johto/Hoenn: o desafio encadeia batalhas a partir da sala inicial.
+
+PATCH PARA COMPARTILHAR
+O pacote de patch nao inclui a ROM base. Abra Criar-ROM.html no navegador e selecione a mesma ROM HeartGold USA IPKE enviada ao projeto. O navegador verifica a base, aplica o patch e verifica o resultado. Alternativa: python aplicar_patch.py "Pokemon Heart Gold.nds".
+SHA-256 da base exigida: 2767e2cb80acc206074232c10a3b74a479e45a472f2ef9f84bbfc55e36ad962d
+O codigo fonte do sorteador, construtor, dados regionais, conversor de retratos e testes acompanha o patch.
+
+VALIDACAO
+Ver VALIDACAO.md. Testes automaticos usam o codigo ARM real e a ROM final; testes no DeSmuME verificam o fim dos quatro circuitos, recordes, retomada e batalhas nativas. As campanhas completas nao foram vencidas manualmente.
+
+Referencias: https://github.com/pret/pokeheartgold ; https://github.com/pret/pokefirered ; https://github.com/pret/pokeemerald
+Projeto de fa, sem afiliacao com os titulares de Pokemon.
