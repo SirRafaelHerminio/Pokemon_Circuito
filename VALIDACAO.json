@@ -1,0 +1,43 @@
+{
+  "money": 4400,
+  "party": 6,
+  "hp": [
+    [
+      343,
+      343
+    ],
+    [
+      250,
+      250
+    ],
+    [
+      285,
+      285
+    ],
+    [
+      281,
+      281
+    ],
+    [
+      290,
+      290
+    ],
+    [
+      234,
+      234
+    ]
+  ],
+  "status": 6,
+  "next": 1,
+  "egg_nonempty": true,
+  "rom_sha256": "918ea04f956c4c5cadcb59d48f6dc4fbdc5ddcdfdace3c8b74b98b064d5fee88",
+  "automatic_rom_load": true,
+  "external_initial_save_imported": false,
+  "actual_brock_victory": true,
+  "reload_party_records_identical": true,
+  "reload_party_sha256": "8765b3f7246061bed098badcbe73dc902b6f69d2a15a696a5a4d4698bfadf821",
+  "native_sav_bytes": 524288,
+  "downloaded_rom_bytes": 134217728,
+  "campaign_completed": false,
+  "windows_desmume_error_fixed": false
+}

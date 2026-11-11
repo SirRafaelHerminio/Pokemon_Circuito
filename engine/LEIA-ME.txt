@@ -1,0 +1,9 @@
+DeSmuME-wasm / Desmond
+Origem do carregador Emscripten e binário:
+https://github.com/js-emulators/desmond/tree/main/dist
+Código-fonte e compilação:
+https://github.com/44670/desmume-wasm
+https://github.com/TASEmulators/desmume
+DeSmuME: GNU GPL v2 ou posterior, conforme fonte original.
+https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
+O arquivo desmond.js contém o trecho Emscripten do original, sem a interface. player.js implementa uma interface própria com Canvas 2D usando as funções exportadas pelo núcleo.

@@ -1,0 +1,32 @@
+{
+  "size": 134217728,
+  "sha256": "918ea04f956c4c5cadcb59d48f6dc4fbdc5ddcdfdace3c8b74b98b064d5fee88",
+  "compression": "gzip",
+  "parts": [
+    {
+      "url": "rom/circuit-00.bin",
+      "size": 16000000,
+      "sha256": "6e96bbe323d211a410bbff3988b121b2f3ea6450bd934409645a5192996670f4"
+    },
+    {
+      "url": "rom/circuit-01.bin",
+      "size": 16000000,
+      "sha256": "330a44dbd818bcbddaacdf064918a8b795433cf25c8736b69d4bded9c3b46645"
+    },
+    {
+      "url": "rom/circuit-02.bin",
+      "size": 16000000,
+      "sha256": "2f89a25064d69b20dab9eb19367b10e7849361bf33e2f921dd39130975f1d60c"
+    },
+    {
+      "url": "rom/circuit-03.bin",
+      "size": 16000000,
+      "sha256": "630f23553df3292be7ec94d9a3a0472c3a730f158d9e053d69cc82bff3b462e9"
+    },
+    {
+      "url": "rom/circuit-04.bin",
+      "size": 2417086,
+      "sha256": "4adccdd7dcfd307c3428d6b843cdadaa5c47e77f4a15c793a131f0d2839ab3f3"
+    }
+  ]
+}
